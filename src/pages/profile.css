@@ -1,0 +1,31 @@
+body {
+    font-family: poppins;
+}
+
+.img-wrapper img {
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    width: 23%;
+}
+.identity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+}

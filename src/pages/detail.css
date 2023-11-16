@@ -1,0 +1,19 @@
+/* Contoh gaya CSS untuk halaman detail */
+
+.detail-container {
+    text-align: center;
+    margin: 20px auto; /* Menetapkan margin atas dan bawah menjadi 20px, dan sisi kiri dan kanan otomatis (auto) */
+    width: 300px; /* Menetapkan lebar elemen container */
+}
+
+.detail-container img {
+    max-width: 100%;
+    max-height: 300px;
+    margin: 10px 0;
+    display: block; /* Menetapkan elemen img sebagai blok agar margin otomatis (auto) bekerja dengan benar */
+    margin-left: auto; /* Menetapkan margin kiri menjadi otomatis (auto) */
+    margin-right: auto; /* Menetapkan margin kanan menjadi otomatis (auto) */
+}
+
+
+  
